@@ -1,96 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Embed HTML Game</title>
+    <title>Game Selector</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
         }
-
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem;
+        li {
+            margin: 10px 0;
         }
-
-        nav {
-            background-color: #444;
-            overflow: hidden;
-        }
-
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-align: center;
+        a {
             text-decoration: none;
-            float: left;
+            font-size: 1.2em;
+            color: #00bcd4;
+            transition: color 0.3s;
         }
-
-        nav a:hover {
-            background-color: #575757;
-        }
-
-        .content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: calc(100vh - 120px);
-        }
-
-        .game-container {
-            width: 80%;
-            height: 80%;
-            border: 2px solid #333;
-            background-color: #fff;
-            position: relative;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #333;
-            color: white;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
+        a:hover {
+            color: #ff9800;
         }
     </style>
 </head>
-
 <body>
-
-    <header>
-        <h1>Half Life</h1>
-    </header>
-
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Games</a>
-        <a href="#">About</a>
-    </nav>
-
-    <div class="content">
-        <div class="game-container">
-            <!-- Embed your game files here -->
-            <iframe <iframe src="games/halflife.html" width="100%" height="100%" frameborder="0" title="Game"></iframe>
-</iframe>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2025 Your Game Website</p>
-    </footer>
-
+    <h1>Welcome to the Game Selector</h1>
+    <ul>
+        <li><a href="Alien Hominid.html">Alien Hominid</a></li>
+        <li><a href="Deltarune.html">Deltarune</a></li>
+        <li><a href="DOOM.html">DOOM</a></li>
+        <li><a href="Five Nights at Freddy's 2.html">Five Nights at Freddy's 2</a></li>
+        <li><a href="Five Nights at Freddy's.html">Five Nights at Freddy's</a></li>
+        <li><a href="Half Life.html">Half Life</a></li>
+        <li><a href="OMORI.html">OMORI</a></li>
+        <li><a href="Riddle School 2.html">Riddle School 2</a></li>
+        <li><a href="Riddle School 3.html">Riddle School 3</a></li>
+        <li><a href="Riddle School.html">Riddle School</a></li>
+    </ul>
 </body>
-
 </html>
